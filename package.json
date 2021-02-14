@@ -1,0 +1,28 @@
+{
+  "name": "eslint-config-qcobjects",
+  "version": "0.0.1",
+  "description": "ESLint Config for QCObjects",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint ."
+  },
+  "repository": {
+    "type": "file",
+    "url": ""
+  },
+  "keywords": [
+    "qcobjects",
+    "newapp",
+    "eslint-config",
+    "eslint",
+    "js",
+    "javascript"
+  ],
+  "author": "Jean Machuca (correojean@gmail.com)",
+  "license": "LGPL-3.0-or-later",
+  "devDependencies": {
+    "qcobjects": "latest",
+    "qcobjects-sdk": "latest",
+    "qcobjects-cli": "latest"
+  }
+}
