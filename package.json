@@ -24,5 +24,9 @@
     "qcobjects": "latest",
     "qcobjects-sdk": "latest",
     "qcobjects-cli": "latest"
+  },
+  "peerDependencies": {
+    "eslint": ">= 7",
+    "qcobjects": ">= 2.3"
   }
 }
