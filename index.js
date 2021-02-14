@@ -36,8 +36,7 @@ module.exports = {
         "node": true
     },
     "extends": [
-      "eslint:recommended",
-      "qcobjects"
+      "eslint:recommended"
     ],
     "globals": Object.assign(qc_globals,{
       "global": "readonly",
