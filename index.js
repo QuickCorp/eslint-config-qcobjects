@@ -24,8 +24,8 @@
  * license document, but changing it is not allowed.
 */
 
-require('qcobjects');
-require('qcobjects-sdk');
+require("qcobjects");
+require("qcobjects-sdk");
 var qc_globals = {};
 global.ClassesList.map(c=>qc_globals[c.classFactory.__definition.__classType]="readonly");
 module.exports = {
@@ -81,4 +81,4 @@ module.exports = {
       "no-unused-vars": 1,
       "no-undef": 1
     }
-}
+};

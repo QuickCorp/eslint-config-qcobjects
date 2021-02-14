@@ -4,7 +4,7 @@
   "description": "ESLint Config for QCObjects",
   "main": "index.js",
   "scripts": {
-    "test": "eslint ."
+    "test": "npx eslint . --fix"
   },
   "repository": {
     "type": "file",
