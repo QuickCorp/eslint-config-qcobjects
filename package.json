@@ -7,8 +7,8 @@
     "test": "npx eslint . --fix"
   },
   "repository": {
-    "type": "file",
-    "url": ""
+    "type": "git",
+    "url": "git+https://github.com/QuickCorp/eslint-config-qcobjects.git"
   },
   "keywords": [
     "qcobjects",
