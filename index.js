@@ -69,6 +69,14 @@ module.exports = {
       "BackendMicroservice": "readonly",
       "Processor": "readonly",
       "RegisterWidget": "readonly",
+      "ComplexStorageCache": "readonly",
+      "_Crypt": "readonly",
+      "SessionUserToken": "readonly",
+      "ComponentURI": "readonly",
+      "_DataStringify": "readonly",
+      "Timer": "readonly",
+      "SourceCSS": "readonly",
+      "SourceJS": "readonly",
       "Service": "readonly"
     }),
     "parserOptions": {
