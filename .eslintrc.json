@@ -2,8 +2,11 @@
     "root": true,
     "env": {
         "browser": true,
-        "es6": true,
-        "node": true
+        "node": true,
+        "es2021": true,
+        "es2020": true,
+        "es2017": true,
+        "es6": true
     },
     "extends": [
       "eslint:recommended"
@@ -13,7 +16,8 @@
       "SharedArrayBuffer": "readonly"
     },
     "parserOptions": {
-        "ecmaVersion": 2018
+        "ecmaVersion": "latest",
+        "ecmaFeatures": {}
     },
     "rules": {
       "semi": ["error", "always"],

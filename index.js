@@ -27,17 +27,26 @@
 require("qcobjects");
 require("qcobjects-sdk");
 var qc_globals = {};
-global.ClassesList.map(c=>qc_globals[c.classFactory.__definition.__classType]="readonly");
+if (typeof global.ClassesList !== "undefined"){
+  global.ClassesList.map(c=>qc_globals[c.classFactory.__definition.__classType]="readonly");
+}
 module.exports = {
     "root": true,
     "env": {
         "browser": true,
-        "es6": true,
-        "node": true
+        "node": true,
+        "es2021": true,
+        "es2020": true,
+        "es2017": true,
+        "es6": true
     },
     "extends": [
       "eslint:recommended"
     ],
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "ecmaFeatures": {}
+    },
     "globals": Object.assign(qc_globals,{
       "global": "readonly",
       "logger": "readonly",
@@ -79,9 +88,6 @@ module.exports = {
       "SourceJS": "readonly",
       "Service": "readonly"
     }),
-    "parserOptions": {
-        "ecmaVersion": 2018
-    },
     "rules": {
       "semi": ["error", "always"],
       "quotes": ["error", "double"],
