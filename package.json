@@ -27,6 +27,6 @@
   },
   "peerDependencies": {
     "eslint": "^8.2.0",
-    "qcobjects": ">=2.3.66"
+    "qcobjects": "^2.4.32-beta"
   }
 }
