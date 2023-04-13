@@ -28,7 +28,7 @@ require("qcobjects");
 require("qcobjects-sdk");
 var qc_globals = {};
 if (typeof global.ClassesList !== "undefined"){
-  global.ClassesList.map(c=>qc_globals[c.classFactory.__definition.__classType]="readonly");
+  global.ClassesList.map(c=>qc_globals[__getType__(c.classFactory)]="readonly"); 
 }
 module.exports = {
     "root": true,

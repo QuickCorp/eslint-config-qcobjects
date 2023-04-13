@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-qcobjects",
-  "version": "0.0.22",
+  "version": "0.0.23",
   "description": "ESLint Config for QCObjects",
   "main": "index.js",
   "scripts": {
@@ -21,12 +21,14 @@
   "author": "Jean Machuca (correojean@gmail.com)",
   "license": "LGPL-3.0-or-later",
   "devDependencies": {
-    "qcobjects": "latest",
-    "qcobjects-sdk": "latest",
-    "qcobjects-cli": "latest"
+    "qcobjects": "^2.4.55",
+    "qcobjects-sdk": "^2.4.28",
+    "qcobjects-cli": "^2.4.32"
   },
   "peerDependencies": {
-    "eslint": "^8.2.0",
-    "qcobjects": "^2.4.32-beta"
+    "eslint": "^8.38.0",
+    "qcobjects": "^2.4.55",
+    "qcobjects-sdk": "^2.4.28",
+    "qcobjects-cli": "^2.4.32"
   }
 }
