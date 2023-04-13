@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-qcobjects",
-  "version": "0.0.23",
+  "version": "0.0.25",
   "description": "ESLint Config for QCObjects",
   "main": "index.js",
   "scripts": {
