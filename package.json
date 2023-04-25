@@ -20,15 +20,9 @@
   ],
   "author": "Jean Machuca (correojean@gmail.com)",
   "license": "LGPL-3.0-or-later",
-  "devDependencies": {
-    "qcobjects": "^2.4.55",
-    "qcobjects-sdk": "^2.4.28",
-    "qcobjects-cli": "^2.4.32"
-  },
   "peerDependencies": {
     "eslint": "^8.38.0",
     "qcobjects": "^2.4.55",
-    "qcobjects-sdk": "^2.4.28",
-    "qcobjects-cli": "^2.4.32"
+    "qcobjects-sdk": "^2.4.30"
   }
 }
